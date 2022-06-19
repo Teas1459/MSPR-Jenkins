@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git 'https://github.com/Teas1459/MSPR-Jenkins'
+                git 'https://github.com/Teas1459/MSPR-Jenkins.git'
                 $ java /path/application fichiergihub
             }
         }
